@@ -640,7 +640,7 @@ a:active {
 
 
 .navline {
-    width: 100%;
+    
     margin-left: -15%;
     margin-top: 120px;
     border-bottom: solid white;
@@ -648,6 +648,20 @@ a:active {
 
 @media screen and (max-width: 700px) {
 	.navline {
+		display: none;
+	}
+}
+
+.footerline{
+    width: 83%;
+    margin-bottom: 100px;
+    margin-left: -12%;
+    position: fixed; bottom: 0; 
+    border-top: solid white;
+}
+
+@media screen and (max-width: 700px) {
+	.footerline {
 		display: none;
 	}
 }
@@ -753,6 +767,14 @@ a:active {
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
 }
+
+/* Footer */
+.site-info{
+    margin-bottom: 50px;
+    position: fixed; bottom: 0;    
+}
+
+
 
 /* Small menu. */
 .menu-toggle {

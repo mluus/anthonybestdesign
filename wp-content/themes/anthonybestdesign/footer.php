@@ -11,10 +11,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+           <div class="footerline"></div> 
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'anthonybestdesign' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'anthonybestdesign' ), 'WordPress' ); ?></a>
+                    <a href="/legal">Legal</a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'anthonybestdesign' ), 'anthonybestdesign', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( __( '&copy 2015 Anthony Best Design LTD'), 'anthonybestdesign' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
