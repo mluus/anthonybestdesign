@@ -13,12 +13,16 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
            <div class="footerline"></div> 
 		<div class="site-info">
+                    <?php anthonybestdesign_social_menu(); ?>
                     <a href="/legal">Legal</a>
 			<span class="sep"> | </span>
 			<?php printf( __( '&copy 2015 Anthony Best Design LTD'), 'anthonybestdesign' ); ?>
+                         
 		</div><!-- .site-info -->
+                
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 
