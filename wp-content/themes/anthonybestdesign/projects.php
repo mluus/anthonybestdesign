@@ -5,33 +5,18 @@
 
 get_header(); ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<p class ="project-head"> Anthony has completed projects around the globe, and we have selected a few cities below - click the image to see more.</p>
 
+   <div class = "project_container">
+       	<?php while ( have_posts() ) : the_post(); ?>
 
-   <div class = "container"'>
-        <div class = "project"'>
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post();    
+				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-         $args = array(
-           'post_type' => 'attachment',
-           'category_name' => 'project',
-           'numberposts' => -1,
-           'post_status' => null,
-           'post_parent' => $post->ID
-          );
+				
 
-          $attachments = get_posts( $args );
-             if ( $attachments ) {
-                foreach ( $attachments as $attachment ) {
-                   
-                   echo '<div class="BW_image">';
-                   echo wp_get_attachment_image( $attachment->ID, 'medium' );
-                   
-                  }
-             }
-
-         endwhile; endif; ?>
-        </div>
+			<?php endwhile; // end of the loop. ?>
+ 
+   </div>   
 
 
 	
@@ -39,4 +24,4 @@ get_header(); ?>
 
         <?php get_footer(); ?>
 
-    <?php endwhile; ?>
+

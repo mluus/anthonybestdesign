@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-17 14:45-0600\n"
+"PO-Revision-Date: 2011-10-17 15:05-0600\n"
+"Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: full-screen-background.php:109
+msgid "Full Screen Background Settings"
+msgstr ""
+
+#: includes/add-new-image.php:5
+#: includes/image-list.php:11
+#: includes/image-list.php:72
+msgid "Add New Image"
+msgstr ""
+
+#: includes/add-new-image.php:5
+#: includes/delete-image.php:5
+#: includes/edit-image.php:6
+msgid "Cancel - Go Back"
+msgstr ""
+
+#: includes/add-new-image.php:9
+msgid "Choose an image. <strong>Note</strong>: ensure you select \"Full Size\" when choosing your image."
+msgstr ""
+
+#: includes/add-new-image.php:10
+msgid "Choose image"
+msgstr ""
+
+#: includes/add-new-image.php:10
+msgid "Choose image . . ."
+msgstr ""
+
+#: includes/add-new-image.php:11
+#: includes/edit-image.php:12
+#: includes/meta-box.php:28
+#: includes/meta-box.php:31
+msgid "Choose Image"
+msgstr ""
+
+#: includes/add-new-image.php:14
+#: includes/edit-image.php:15
+msgid "Enter image name"
+msgstr ""
+
+#: includes/add-new-image.php:18
+#: includes/edit-image.php:19
+msgid "Choose the context on which to display this image"
+msgstr ""
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+#: includes/image-list.php:54
+msgid "Global"
+msgstr ""
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+msgid "Category"
+msgstr ""
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+#: includes/image-list.php:54
+msgid "Archives"
+msgstr ""
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+msgid "Pages"
+msgstr "Paginas"
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+msgid "Posts"
+msgstr "Entradas"
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+#: includes/image-list.php:54
+msgid "Blog"
+msgstr ""
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+#: includes/image-list.php:54
+msgid "Front Page"
+msgstr "Pagina Frontera"
+
+#: includes/add-new-image.php:19
+#: includes/edit-image.php:20
+#: includes/image-list.php:54
+msgid "Search"
+msgstr ""
+
+#: includes/add-new-image.php:29
+msgid "Enter Post/Page/Category IDs or slugs to restrict images to. <strong>Note: do not combine slugs and IDs</strong>. Use one or the other"
+msgstr ""
+
+#: includes/add-new-image.php:30
+#: includes/edit-image.php:33
+msgid "Optional"
+msgstr ""
+
+#: includes/add-new-image.php:35
+#: includes/edit-image.php:38
+msgid "Save Image"
+msgstr ""
+
+#: includes/admin-messages.php:9
+msgid "New image added."
+msgstr ""
+
+#: includes/admin-messages.php:13
+msgid "Adding image failed. Please try again. If the problem persists, contact <a href=\"mailto:pippin@pippinsplugins.com\">support</a>."
+msgstr ""
+
+#: includes/admin-messages.php:19
+msgid "Image updated."
+msgstr ""
+
+#: includes/admin-messages.php:23
+msgid "Image update failed."
+msgstr ""
+
+#: includes/admin-messages.php:29
+msgid "Image has been deleted."
+msgstr ""
+
+#: includes/admin-messages.php:33
+msgid "Image deletion failed."
+msgstr ""
+
+#: includes/admin-page.php:24
+#: includes/image-list.php:6
+#: includes/meta-box.php:6
+msgid "Full Screen Background Image"
+msgstr ""
+
+#: includes/admin-page.php:24
+msgid "Fullscreen BG Image"
+msgstr ""
+
+#: includes/delete-image.php:5
+msgid "Delete Image"
+msgstr "Borrar Imagina"
+
+#: includes/delete-image.php:8
+msgid "Image deletion is permanent and cannot be undone."
+msgstr ""
+
+#: includes/delete-image.php:9
+msgid "Are you sure you wish to delete yes this image?"
+msgstr ""
+
+#: includes/delete-image.php:12
+msgid "Yes, Delete Image"
+msgstr ""
+
+#: includes/edit-image.php:6
+#: includes/image-list.php:63
+msgid "Edit Image"
+msgstr ""
+
+#: includes/edit-image.php:10
+msgid "Choose an image. <strong>Note</strong>: ensure you select \"Full Size\" when choosing your image., "
+msgstr ""
+
+#: includes/edit-image.php:32
+msgid "Post/Page/Category IDs or slugs to restrict images to. <strong>Note: do not combine slugs and IDs</strong>. Use one or the other."
+msgstr ""
+
+#: includes/image-list.php:17
+#: includes/image-list.php:27
+msgid "ID"
+msgstr ""
+
+#: includes/image-list.php:18
+#: includes/image-list.php:28
+msgid "Thumb"
+msgstr ""
+
+#: includes/image-list.php:19
+#: includes/image-list.php:29
+msgid "Name"
+msgstr "Titilo"
+
+#: includes/image-list.php:20
+#: includes/image-list.php:30
+msgid "Context"
+msgstr ""
+
+#: includes/image-list.php:21
+#: includes/image-list.php:31
+msgid "Post/Page/Category IDs"
+msgstr "Entrada/Pagina/Categoria IDs"
+
+#: includes/image-list.php:22
+#: includes/image-list.php:32
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/image-list.php:64
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/image-list.php:75
+msgid "Settings"
+msgstr ""
+
+#: includes/image-list.php:78
+msgid "Options saved"
+msgstr ""
+
+#: includes/image-list.php:87
+msgid "The fadein effect is applied to the background images when the page is loaded to give a smoother load."
+msgstr ""
+
+#: includes/image-list.php:90
+msgid "Check this to disable the fade in effect."
+msgstr ""
+
+#: includes/image-list.php:94
+msgid "Enter the wait time for image fade in. This is the amount of time before images begin to fade in."
+msgstr ""
+
+#: includes/image-list.php:98
+msgid "Enter the image fade duration. This is how long an image takes to fully fade in. This time is in milliseconds."
+msgstr ""
+
+#: includes/image-list.php:103
+msgid "Save Options"
+msgstr ""
+
+#: includes/meta-box.php:36
+msgid "Image Name"
+msgstr ""
+
+#: includes/meta-box.php:45
+msgid "Image Preview"
+msgstr ""
+

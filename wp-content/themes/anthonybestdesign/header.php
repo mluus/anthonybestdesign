@@ -17,7 +17,12 @@
 <?php wp_head(); ?>
 </head>
 
+
 <body <?php body_class(); ?>>
+    
+ 
+<?php if( !is_page('703') ) :?>
+    
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'anthonybestdesign' ); ?></a>
 
@@ -41,3 +46,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+<?php endif;?>

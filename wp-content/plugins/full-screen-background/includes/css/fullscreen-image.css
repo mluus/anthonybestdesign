@@ -1,0 +1,10 @@
+img#fsb_image {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-10;
+    overflow: hidden;
+    width: 100%;
+    display:none;
+}
+#backstretch { visibility: hidden; }

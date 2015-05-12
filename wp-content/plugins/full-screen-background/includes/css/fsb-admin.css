@@ -1,0 +1,21 @@
+.fsb_clearfix:after { display: block; visibility: hidden; clear: both; content: "."; text-indent: -9999px; }
+.fsb_form { width: 450px; margin: 0 25px 0 0; float: left; }
+.fsb_form .widefat { width: 60%; }
+.fsb_form label { display: block; margin: 0 0 8px; }
+.fsb_input { width: 40%; }
+
+.fsb_right { float: right; width: 50%; }
+.fsb_left { float: left; width: 50%; }
+
+.fsb_thumb { max-width: 80px; overflow: hidden; }
+
+#fsb_preview_image { 
+	padding: 3px; border: 1px solid #f0f0f0;
+	max-width: 400px; overflow: hidden; 
+}
+#fsb_edit_preview { width: 400px; float: left; }
+
+#fsb_table th { cursor: pointer; }
+#fsb_table td { vertical-align: middle; padding-bottom: 4px; }
+
+.restrict_ids { display: none; }
