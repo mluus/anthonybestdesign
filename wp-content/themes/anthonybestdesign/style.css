@@ -109,7 +109,7 @@ summary {
         display: block;
         margin-left: 10%;
         margin-right: 10%;
-        width: 4%;
+        width: 90%;
         }
 }
 
@@ -133,11 +133,13 @@ template {
 
 a {
 	background-color: transparent;
+        outline:none;
 }
 
 a:active,
 a:hover {
 	outline: 0;
+        outline:none;
 }
 
 abbr[title] {
@@ -185,6 +187,7 @@ sub {
 
 img {
 	border: 0;
+        outline:none;
 }
 
 svg:not(:root) {
@@ -229,6 +232,7 @@ button {
 button,
 select {
 	text-transform: none;
+       
 }
 
 button,
@@ -302,6 +306,14 @@ table {
 td,
 th {
 	padding: 0;
+}
+
+a :focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 /*--------------------------------------------------------------
@@ -549,10 +561,12 @@ textarea {
 a {
 	color: #ffffff;
         text-decoration: none;
+        outline:none;
 }
 
 a:visited {
 	color: #ffffff;
+        outline:none;
 }
 
 a:hover,
@@ -566,10 +580,12 @@ a:active {
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
+   outline:none;
 }
 
 a:focus {
-	outline: thin dotted;
+	
+        outline:none;
 }
 
 a:hover,
@@ -582,17 +598,20 @@ a:active {
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
+   outline:none;
 }
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .site-title{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/logo.jpg'); 
-    height: 120px;
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/logo3.png'); 
+    height: 70px;
     width: 300px;
-    max-height: 100%;
-    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
     
 }
 
@@ -603,6 +622,7 @@ a:active {
         font-weight: 500;
 	clear: both;
 	display: block;
+        outline:none;
         
         
         margin-right: 0;
@@ -618,6 +638,7 @@ a:active {
 	display: block;
         margin-right: 0;
         margin-left: 40%;
+        outline:none;
     }
 }
 
@@ -630,6 +651,7 @@ a:active {
 	display: block;        
         margin-right: 0;
         margin-left: 30%;
+        outline:none;
     }
 }
 
@@ -642,6 +664,20 @@ a:active {
 	display: block;        
         margin-right: 0;
         margin-left: 10%;
+        outline:none;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 590px) {
+    .main-navigation{
+	font-family: code_pro_light_demoregular;
+        font-size: 15px;
+        font-weight: 500;
+	clear: both;
+	display: block;        
+        margin-right: 0;
+        margin-left: 0px;
+        outline:none;
     }
 }
 
@@ -683,17 +719,20 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+        outline:none;
 }
 
 .main-navigation li {
 	float: left;
 	position: relative;
+        outline:none;
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
         margin-right: 40px;
+        outline:none;
         
 }
 
@@ -704,6 +743,7 @@ a:active {
 	top: 1.5em;
 	left: -999em;
 	z-index: 99999;
+        outline:none;
 }
 
 .main-navigation ul ul ul {
@@ -753,6 +793,7 @@ a:active {
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
+   outline:none;
 }
 
 .main-navigation .current_page_ancestor {
@@ -764,6 +805,7 @@ a:active {
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
+   outline:none;
 }
 
 .main-navigation ul ul .current_page_parent,
@@ -776,6 +818,7 @@ a:active {
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
    -o-transition: width 0.3s; /* Opera */
+   outline:none;
 }
 
 /* Footer */
@@ -1233,9 +1276,9 @@ a:active {
     background-size: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-left: 25%;
+    margin-left: 20%;
     /*width: auto;*/
-    height: 400px;
+    height: 450px;
     width: 900px;
     max-height: 100%;
     max-width: 100%;
@@ -1252,7 +1295,7 @@ a:active {
      background-size: 100%;
      margin-bottom: 60px;
      margin-top: 60px;
-     margin-left: 25%;
+     margin-left: 20%;
      height: 450px;
      width: 900px;
      max-height: 100%;
@@ -1271,7 +1314,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-left: 25%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 450px;
     width: 900px;;
@@ -1290,7 +1333,7 @@ a:active {
      background-size: 100%;
      margin-bottom: 60px;
      margin-top: 60px;
-     margin-left: 25%;
+     margin-left: 20%;
      height: 450px;
      width: 900px;
      max-height: 100%;
@@ -1308,9 +1351,9 @@ a:active {
     background-size: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-left: 25%;
+    margin-left: 20%;
     /*width: auto;*/
-    height: 400px;
+    height: 450px;
     width: 900px;
     max-height: 100%;
     max-width: 100%;
@@ -1327,9 +1370,9 @@ a:active {
      background-size: 100%;
      margin-bottom: 60px;
      margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
+     margin-left: 20%;
+     height: 450px;
+     width: 900px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1345,9 +1388,9 @@ a:active {
     background-size: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
-    margin-left: 25%;
+    margin-left: 20%;
     /*width: auto;*/
-    height: 400px;
+    height: 450px;
     width: 900px;
     max-height: 100%;
     max-width: 100%;
@@ -1364,9 +1407,9 @@ a:active {
      background-size: 100%;
      margin-bottom: 60px;
      margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
+     margin-left: 20%;
+     height: 450px;
+     width: 900px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1393,12 +1436,12 @@ a:active {
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_BW-copy.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
     /*width: auto;*/
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1412,11 +1455,11 @@ a:active {
      background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_uncov.jpg');
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     margin-left: 5%;
+     height: 200px;
+     width: 300px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1431,13 +1474,13 @@ a:active {
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_BW.jpg'); 
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
     /*width: auto;*/
-    height: 300px;
-    width: 500px;;
-    max-height: 100%;
+    height: 200px;
+    width: 300px;;
+    max-height: 40%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
     -ms-transition: all 1s ease-out;
@@ -1450,12 +1493,12 @@ a:active {
      background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_uncov.jpg'); 
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
-     max-height: 100%;
+     margin-bottom:10px;
+     margin-top: 10px;
+     margin-left: 5%;
+     height: 200px;
+     width: 300px;
+     max-height: 40%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
     -ms-transition: all 1s ease-in;
@@ -1468,12 +1511,12 @@ a:active {
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/MIAMI_BW.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
     /*width: auto;*/
-    height: 400px;
-    width: 900px;
+    height: 200px;
+    width: 300px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1487,11 +1530,11 @@ a:active {
      background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/miami_uncov.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     margin-left: 5%;
+     height: 200px;
+     width: 300px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1505,12 +1548,12 @@ a:active {
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_BW.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
     /*width: auto;*/
-    height: 400px;
-    width: 900px;
+    height: 200px;
+    width: 300px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1524,11 +1567,11 @@ a:active {
      background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_uncover.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 25%;
-     height: 300px;
-     width: 500px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     margin-left: 5%;
+     height: 200px;
+     width: 300px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1553,10 +1596,10 @@ a:active {
   #landing_logo{
         width: 1800px;
         height: 1800px;
-        background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/LOGO2.png');  
+        background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/LOGO4.png');  
         background-repeat: no-repeat;
         background-size: 40%;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20%;
         opacity: 0;
         -o-transition: all 1s ease-out;
@@ -1570,10 +1613,10 @@ a:active {
       #landing_logo:hover{
         width: 1800px;
         height: 1800px;
-        background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/LOGO2.png');  
+        background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/LOGO4.png');  
         background-repeat: no-repeat;
         background-size: 50%;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 20%;
         opacity: 1;
         -o-transition: all 1s ease-in;

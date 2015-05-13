@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<p class ="project-head"> Anthony has completed projects around the globe, and we have selected a few cities below - click the image to see more.</p>
+<p class ="project-head"> Anthony has completed projects around the globe - click the images to see more.</p>
 
    <div class = "project_container">
        	<?php while ( have_posts() ) : the_post(); ?>
