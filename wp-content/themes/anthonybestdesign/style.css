@@ -72,7 +72,7 @@ body {
         text-rendering: optimizelegibility;
         font-family: code_pro_light_demoregular;
 	margin: 0;
-        background-color: #777777;
+        background-color: #ebeced;
 }
 
 article,
@@ -325,7 +325,7 @@ input,
 select,
 textarea {
         font-family: code_pro_light_demoregular; 
-	color: #ffffff;
+	color: #555557;
 	font-size: 15px;
 	font-size: 1.5rem;
 	line-height: 1.5;
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: right;
         font-weight: 500;
         font-family: code_pro_light_demoregular;
-        color: #ffffff;
+        color: #555557;
 }
 
 p {
@@ -408,7 +408,7 @@ html {
 }
 
 body {
-	background: #777777; /* Fallback for when there is no custom background color defined. */
+	background: #ebeced; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -559,13 +559,13 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #ffffff;
+	color: #555557;
         text-decoration: none;
         outline:none;
 }
 
 a:visited {
-	color: #ffffff;
+	color: #555557;
         outline:none;
 }
 
@@ -637,7 +637,7 @@ a:active {
 	clear: both;
 	display: block;
         margin-right: 0;
-        margin-left: 40%;
+        margin-left: 50%;
         outline:none;
     }
 }
@@ -650,7 +650,7 @@ a:active {
 	clear: both;
 	display: block;        
         margin-right: 0;
-        margin-left: 30%;
+        margin-left: 50%;
         outline:none;
     }
 }
@@ -663,12 +663,12 @@ a:active {
 	clear: both;
 	display: block;        
         margin-right: 0;
-        margin-left: 10%;
+        margin-left: 50%;
         outline:none;
     }
 }
 
-@media screen and (min-width: 100px) and (max-width: 590px) {
+@media screen and (min-width: 100px) and (max-width: 599px) {
     .main-navigation{
 	font-family: code_pro_light_demoregular;
         font-size: 15px;
@@ -676,7 +676,7 @@ a:active {
 	clear: both;
 	display: block;        
         margin-right: 0;
-        margin-left: 0px;
+        margin-left: 8%;
         outline:none;
     }
 }
@@ -689,7 +689,8 @@ a:active {
     
     margin-left: -15%;
     margin-top: 120px;
-    border-bottom: solid white;
+    border-bottom: solid;
+    border-color: #555557;
 }
 
 @media screen and (max-width: 700px) {
@@ -703,7 +704,8 @@ a:active {
     margin-bottom: 60px;
     margin-left: -31%;
     position: relative; bottom: 0; 
-    border-top: solid white;
+    border-top: solid;
+    border-color: #555557;
 }
 
 @media screen and (max-width: 800px) {
@@ -841,7 +843,9 @@ a:active {
 }
 
 .site-footer{
-    background-color: #777777;
+    background-color: #ebeced;
+    
+    bottom: 0;  
 }
 
 
@@ -874,7 +878,7 @@ a:active {
         vertical-align: top;
         font-family: 'Fontawesome';
         font-size: 20px;
-        color: #fff;
+        color: #555557;
         -webkit-font-smoothing: antialiased;
         content: '\f0c0';
 }
@@ -1108,14 +1112,14 @@ a:active {
 /*----------------------- projects page ---------------------- */
 @media screen and (min-width: 1300px) and (max-width: 3000px) {
  #capebw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_BW-copy.jpg');
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 25%;
     /*width: auto;*/
-    height: 704px;
+    height: 200px;
     width: 1024px;
     max-height: 100%;
     max-width: 100%;
@@ -1127,13 +1131,12 @@ a:active {
  }
  
  #capebw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_uncov.jpg');
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_colour.jpg');
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 30px;
-     margin-top: 30px;
+     margin-top: -520px;
      margin-left: 25%;
-     height: 704px;
+     height: 604px;
      width: 1024px;
      max-height: 100%;
      max-width: 100%;
@@ -1146,14 +1149,14 @@ a:active {
  
 
   #londonbw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_BW.jpg'); 
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_blackwhite.jpg'); 
     background-repeat: no-repeat;
     background-size: 100%;
     /*margin-bottom: 30px;*/
     margin-top: 30px;
     margin-left: 25%;
     /*width: auto;*/
-    height: 704px;
+    height: 200px;
     width: 1024px;
     max-height: 100%;
     max-width: 100%;
@@ -1165,11 +1168,10 @@ a:active {
  }
  
     #londonbw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_uncov.jpg'); 
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_colour.jpg'); 
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 30px;
-     margin-top: 30px;
+     margin-top: -50px;
      margin-left: 25%;
      height: 704px;
      width: 1024px;  
@@ -1183,14 +1185,14 @@ a:active {
  }
  
    #miamibw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/MIAMI_BW.jpg');  
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_blackwhite.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 25%;
     /*width: auto;*/
-    height: 704px;
+    height: 200px;
     width: 1024px;
     max-height: 100%;
     max-width: 100%;
@@ -1202,13 +1204,12 @@ a:active {
  }
  
     #miamibw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/miami_uncov.jpg');  
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_colour.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 30px;
-     margin-top: 30px;
+     margin-top: -250px;
      margin-left: 25%;
-     height: 704px;
+     height: 950px;
      width: 1024px;  
      max-height: 100%;
      max-width: 100%;
@@ -1220,14 +1221,14 @@ a:active {
  }
  
    #landbw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_BW.jpg');  
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_blackwhite.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 25%;
     /*width: auto;*/
-    height: 704px;
+    height: 200px;
     width: 1024px;
     max-height: 100%;
     max-width: 100%;
@@ -1239,11 +1240,10 @@ a:active {
  }
  
     #landbw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_uncover.jpg');  
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_colour.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 30px;
-     margin-top: 30px;
+     margin-top: -700px;
      margin-left: 25%;
      height: 704px;
      width: 1024px;  
@@ -1264,22 +1264,26 @@ a:active {
     .project-head{
         margin-top: 5%;
         margin-left: 20%;
-    }    
+    }  
+    
+   .entry-title{
+        height: 0px;
+    }   
  
 }
 
 
-@media screen and (min-width: 900px) and (max-width: 1290px) {
+@media screen and (min-width: 1000px) and (max-width: 1290px) {
  #capebw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_BW-copy.jpg');
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top: 13px;
+    margin-left: 12%;
     /*width: auto;*/
-    height: 450px;
-    width: 900px;
+    height: 180px;
+    width: 850px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1290,14 +1294,13 @@ a:active {
  }
  
  #capebw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_uncov.jpg');
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_colour.jpg');
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 20%;
-     height: 450px;
-     width: 900px;
+     margin-top: -440px;
+     margin-left: 12%;
+     height: 620px;
+     width: 850px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1309,15 +1312,15 @@ a:active {
  
 
   #londonbw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_BW.jpg'); 
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_blackwhite.jpg'); 
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 12%;
     /*width: auto;*/
-    height: 450px;
-    width: 900px;;
+    height: 180px;
+    width: 850px;;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1328,14 +1331,13 @@ a:active {
  }
  
     #londonbw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_uncov.jpg'); 
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_colour.jpg'); 
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 20%;
-     height: 450px;
-     width: 900px;
+     margin-top: -60px;
+     margin-left: 12%;
+     height: 600px;
+     width: 850px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1346,15 +1348,15 @@ a:active {
  }
  
    #miamibw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/MIAMI_BW.jpg');  
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_blackwhite.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 12%;
     /*width: auto;*/
-    height: 450px;
-    width: 900px;
+    height: 180px;
+    width: 850px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1365,14 +1367,13 @@ a:active {
  }
  
     #miamibw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/miami_uncov.jpg');  
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_colour.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 20%;
-     height: 450px;
-     width: 900px;
+     margin-top: -250px;
+     margin-left: 12%;
+     height: 800px;
+     width: 850px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1383,15 +1384,15 @@ a:active {
  }
  
    #landbw{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_BW.jpg');  
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_blackwhite.jpg');  
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 12%;
     /*width: auto;*/
-    height: 450px;
-    width: 900px;
+    height: 180px;
+    width: 850px;
     max-height: 100%;
     max-width: 100%;
     -o-transition: all 1s ease-out;
@@ -1402,14 +1403,13 @@ a:active {
  }
  
     #landbw:hover {
-     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_uncover.jpg');  
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_colour.jpg');  
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-bottom: 60px;
-     margin-top: 60px;
-     margin-left: 20%;
-     height: 450px;
-     width: 900px;
+     margin-top: -650px;
+     margin-left: 12%;
+     height: 650px;
+     width: 850px;
      max-height: 100%;
      max-width: 100%;
      -o-transition: all 1s ease-in;
@@ -1425,13 +1425,340 @@ a:active {
     } 
     
   .project-head{
-     margin-top: 5%;
+     margin-top: 1%;
      margin-left: 15%;
     } 
  
+    .entry-title{
+        height: 0px;
+    }
+ 
 }
 
-@media screen and (min-width: 300px) and (max-width: 890px) {
+@media screen and (min-width: 800px) and (max-width: 999px) {
+ #capebw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 780px;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;   
+ }
+ 
+ #capebw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_colour.jpg');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -320px;
+     margin-left: 13%;
+     height: 500px;
+     width: 780px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+
+  #londonbw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_blackwhite.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 780px;
+    max-height: 40%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #londonbw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_colour.jpg'); 
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -30px;
+     margin-left: 13%;
+     height: 500px;
+     width: 780px;
+     max-height: 40%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+   #miamibw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_blackwhite.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 780px;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #miamibw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_colour.jpg');  
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -200px;
+     margin-left: 13%;
+     height: 650px;
+     width: 780px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+   #landbw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_blackwhite.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 780px;;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #landbw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_colour.jpg');  
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -480px;
+     margin-left: 13%;
+     height: 600px;
+     width: 780px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    }
+    
+    .project_container{
+     text-indent: -9999px;
+       
+    } 
+    
+  .project-head{
+     margin-top: 1%;
+     margin-left: 15%;
+    } 
+ 
+    .entry-title{
+        height: 0px;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+ #capebw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 650px;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;   
+ }
+ 
+ #capebw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_colour.jpg');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -320px;
+     margin-left: 13%;
+     height: 300px;
+     width: 650px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+
+  #londonbw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_blackwhite.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 650px;
+    max-height: 40%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #londonbw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_colour.jpg'); 
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -30px;
+     margin-left: 13%;
+     height: 300px;
+     width: 650px;
+     max-height: 40%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+   #miamibw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_blackwhite.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 650px;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #miamibw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Miami_colour.jpg');  
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -200px;
+     margin-left: 13%;
+     height: 650px;
+     width: 650px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+ }
+ 
+   #landbw{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_blackwhite.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 13%;
+    /*width: auto;*/
+    height: 130px;
+    width: 650px;
+    max-height: 100%;
+    max-width: 100%;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+ }
+ 
+    #landbw:hover {
+     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/landscape_colour.jpg');  
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: -480px;
+     margin-left: 13%;
+     height: 900px;
+     width: 650px;
+     max-height: 100%;
+     max-width: 100%;
+     -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    }
+    
+    .project_container{
+     text-indent: -9999px;
+       
+    } 
+    
+  .project-head{
+     margin-top: 1%;
+     margin-left: 15%;
+    } 
+ 
+    .entry-title{
+        height: 0px;
+    }
+}
+ 
+ @media screen and (min-width: 100px) and (max-width: 450px) {
  #capebw{
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_BW-copy.jpg');
     background-repeat: no-repeat;
