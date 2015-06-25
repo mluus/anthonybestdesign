@@ -605,16 +605,82 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .site-title{
-    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/logo3.png'); 
-    height: 70px;
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height: 120px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -0.5%
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:80px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: 100%;
-    
-   
-    
+    margin-top: 3% ;
+    }
 }
 
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:80px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 4% ;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:80px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 7% ;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:100px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5% ;
+    margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:80px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5% ;
+    margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .site-title{
+    background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/Logo_dark2.png'); 
+    height:80px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5% ;
+    margin-left: 0%;
+    }
+}
 
 .main-navigation {
         font-family: code_pro_light_demoregular;
@@ -655,7 +721,7 @@ a:active {
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
     .main-navigation{
 	font-family: code_pro_light_demoregular;
         font-size: 15px;
@@ -668,7 +734,7 @@ a:active {
     }
 }
 
-@media screen and (min-width: 100px) and (max-width: 599px) {
+@media screen and (min-width: 350px) and (max-width: 599px) {
     .main-navigation{
 	font-family: code_pro_light_demoregular;
         font-size: 15px;
@@ -677,6 +743,19 @@ a:active {
 	display: block;        
         margin-right: 0;
         margin-left: 8%;
+        outline:none;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 349px) {
+    .main-navigation{
+	font-family: code_pro_light_demoregular;
+        font-size: 15px;
+        font-weight: 500;
+	clear: both;
+	display: block;        
+        margin-right: 0;
+        margin-left: 0;
         outline:none;
     }
 }
@@ -843,9 +922,12 @@ a:active {
 }
 
 .site-footer{
-    background-color: #ebeced;
-    
-    bottom: 0;  
+   background-color: #ebeced;
+  
+   bottom: 0;  
+   width: 80%;
+   
+       
 }
 
 
@@ -914,7 +996,7 @@ a:active {
         width: 250px;
         height: 50px;
         background-color: #cccccc;
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 20px;
         font-color: white;
 }
@@ -924,7 +1006,7 @@ a:active {
 	display: block;
         width: 250px;
         height: 120px;
-        margin-left: 20px;
+        margin-left: 10px;
         background-color: #cccccc;       
 }
 
@@ -1110,7 +1192,7 @@ a:active {
 }
 
 /*----------------------- projects page ---------------------- */
-@media screen and (min-width: 1300px) and (max-width: 3000px) {
+@media screen and (min-width: 1400px) and (max-width: 3000px) {
  #capebw{
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
     background-repeat: no-repeat;
@@ -1171,7 +1253,7 @@ a:active {
      background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/London_colour.jpg'); 
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: -50px;
+     margin-top: -40px;
      margin-left: 25%;
      height: 704px;
      width: 1024px;  
@@ -1268,19 +1350,21 @@ a:active {
     
    .entry-title{
         height: 0px;
+        font-weight: bolder;
+        margin-left: 12%;
     }   
  
 }
 
 
-@media screen and (min-width: 1000px) and (max-width: 1290px) {
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
  #capebw{
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/CapeTown_blackwhite.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 13px;
-    margin-left: 12%;
+    margin-left: 25%;
     /*width: auto;*/
     height: 180px;
     width: 850px;
@@ -1298,7 +1382,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -440px;
-     margin-left: 12%;
+     margin-left: 25%;
      height: 620px;
      width: 850px;
      max-height: 100%;
@@ -1317,7 +1401,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
-    margin-left: 12%;
+    margin-left: 25%;
     /*width: auto;*/
     height: 180px;
     width: 850px;;
@@ -1335,7 +1419,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -60px;
-     margin-left: 12%;
+     margin-left: 25%;
      height: 600px;
      width: 850px;
      max-height: 100%;
@@ -1353,7 +1437,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
-    margin-left: 12%;
+    margin-left: 25%;
     /*width: auto;*/
     height: 180px;
     width: 850px;
@@ -1371,7 +1455,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -250px;
-     margin-left: 12%;
+     margin-left: 25%;
      height: 800px;
      width: 850px;
      max-height: 100%;
@@ -1389,7 +1473,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
-    margin-left: 12%;
+    margin-left: 25%;
     /*width: auto;*/
     height: 180px;
     width: 850px;
@@ -1407,7 +1491,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -650px;
-     margin-left: 12%;
+     margin-left: 25%;
      height: 650px;
      width: 850px;
      max-height: 100%;
@@ -1431,6 +1515,9 @@ a:active {
  
     .entry-title{
         height: 0px;
+        font-weight: bolder;
+        margin-left: -10%;
+        
     }
  
 }
@@ -1442,7 +1529,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 780px;
@@ -1460,7 +1547,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -320px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 500px;
      width: 780px;
      max-height: 100%;
@@ -1479,7 +1566,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 780px;
@@ -1497,7 +1584,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -30px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 500px;
      width: 780px;
      max-height: 40%;
@@ -1515,7 +1602,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 780px;
@@ -1533,7 +1620,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -200px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 650px;
      width: 780px;
      max-height: 100%;
@@ -1551,7 +1638,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 780px;;
@@ -1569,7 +1656,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -480px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 600px;
      width: 780px;
      max-height: 100%;
@@ -1593,6 +1680,8 @@ a:active {
  
     .entry-title{
         height: 0px;
+        font-weight: bolder;
+        margin-left: -10%;
     }
 }
 
@@ -1604,7 +1693,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 650px;
@@ -1622,7 +1711,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -320px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 300px;
      width: 650px;
      max-height: 100%;
@@ -1641,7 +1730,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 650px;
@@ -1659,7 +1748,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -30px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 300px;
      width: 650px;
      max-height: 40%;
@@ -1677,7 +1766,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 650px;
@@ -1695,7 +1784,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -200px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 650px;
      width: 650px;
      max-height: 100%;
@@ -1713,7 +1802,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 13%;
+    margin-left: 20%;
     /*width: auto;*/
     height: 130px;
     width: 650px;
@@ -1731,7 +1820,7 @@ a:active {
      background-repeat: no-repeat;
      background-size: 100%;
      margin-top: -480px;
-     margin-left: 13%;
+     margin-left: 20%;
      height: 900px;
      width: 650px;
      max-height: 100%;
@@ -1754,18 +1843,20 @@ a:active {
     } 
  
     .entry-title{
-        height: 0px;
+        height: 30px;
+         font-weight: bolder;
+      
     }
 }
  
- @media screen and (min-width: 100px) and (max-width: 450px) {
+ @media screen and (min-width: 100px) and (max-width: 499px) {
  #capebw{
     background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/cape_BW-copy.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     /*width: auto;*/
     height: 200px;
     width: 300px;
@@ -1784,7 +1875,7 @@ a:active {
      background-size: 100%;
      margin-bottom: 10px;
      margin-top: 10px;
-     margin-left: 5%;
+     margin-left:10%;
      height: 200px;
      width: 300px;
      max-height: 100%;
@@ -1803,7 +1894,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     /*width: auto;*/
     height: 200px;
     width: 300px;;
@@ -1822,7 +1913,7 @@ a:active {
      background-size: 100%;
      margin-bottom:10px;
      margin-top: 10px;
-     margin-left: 5%;
+     margin-left: 10%;
      height: 200px;
      width: 300px;
      max-height: 40%;
@@ -1840,7 +1931,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     /*width: auto;*/
     height: 200px;
     width: 300px;
@@ -1859,7 +1950,7 @@ a:active {
      background-size: 100%;
      margin-bottom: 10px;
      margin-top: 10px;
-     margin-left: 5%;
+     margin-left: 10%;
      height: 200px;
      width: 300px;
      max-height: 100%;
@@ -1877,7 +1968,7 @@ a:active {
     background-size: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 10%;
     /*width: auto;*/
     height: 200px;
     width: 300px;
@@ -1896,7 +1987,7 @@ a:active {
      background-size: 100%;
      margin-bottom: 10px;
      margin-top: 10px;
-     margin-left: 5%;
+     margin-left: 10%;
      height: 200px;
      width: 300px;
      max-height: 100%;
@@ -1908,8 +1999,21 @@ a:active {
     transition: all 1s ease-in;
  }
  
- .project_container{
+    .project_container{
      text-indent: -9999px;
+       
+    } 
+    
+  .project-head{
+     margin-top: 1%;
+     margin-left: 15%;
+    } 
+ 
+    .entry-title{
+        margin-bottom: 5px;
+       
+         font-weight: bolder;
+        }
        
     } 
     
@@ -1920,7 +2024,7 @@ a:active {
     } 
 }
 
-  #landing_logo{
+/*  #landing_logo{
         width: 1800px;
         height: 1800px;
         background-image: url('http://anthonybestdesign:8888/wp-content/uploads/2015/05/LOGO4.png');  
@@ -1951,7 +2055,7 @@ a:active {
         -moz-transition: all 1s ease-in;
         -webkit-transition: all 1s ease-in;
         transition: all 1s ease-in;
-    }
+    }*/
  
  
  

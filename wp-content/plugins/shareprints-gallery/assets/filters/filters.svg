@@ -1,0 +1,65 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+<filter id="popout">
+<feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+<feOffset dx="3" dy="5" result="offsetblur"/>
+<feFlood flood-color="rgba(60,60,60,.75)"/>
+<feComposite in2="offsetblur" operator="in"/>
+<feMerge>
+	<feMergeNode/>
+	<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<filter id="popoutmore">
+<feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+<feOffset dx="10" dy="15" result="offsetblur"/>
+<feFlood flood-color="rgba(0,0,0,.70)"/>
+<feComposite in2="offsetblur" operator="in"/>
+<feMerge>
+	<feMergeNode/>
+	<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<filter id="fullcolortohalf">
+	<feColorMatrix type="saturate" values=".5" />
+</filter>
+
+<filter id="halfcolortofull">
+	<feColorMatrix type="saturate" values="1" />
+</filter>
+
+<filter id="invert">
+	 <feColorMatrix in='SourceGraphic' type='matrix' values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/>
+</filter>
+
+<filter id="nocolor">
+	<feColorMatrix type="saturate" values=".1" />
+</filter>
+
+<filter id="color">
+	<feColorMatrix type="saturate" values="1" />
+</filter>
+
+<filter id="sepia">
+	<feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0" />
+</filter>
+
+<filter id="nosepia">
+  <feColorMatrix type="matrix"
+    values="(0.393 + 0.607 * 1) (0.769 - 0.769 * 1) (0.189 - 0.189 * 1) 0 0
+            (0.349 - 0.349 * 1) (0.686 + 0.314 * 1) (0.168 - 0.168 * 1) 0 0
+            (0.272 - 0.272 * 1) (0.534 - 0.534 * 1) (0.131 + 0.869 * 1) 0 0
+             0 0 0 1 0"/>
+</filter>
+
+<filter id="blur">
+	<feGaussianBlur stdDeviation="5" />
+</filter>
+
+<filter id="blurmore">
+	<feGaussianBlur stdDeviation="15" />
+</filter>
+
+</svg>

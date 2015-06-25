@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php if( !is_page('703') ) :?>
+<?php if( !is_page(array('703'))) :?>
 
 	</div><!-- #content -->
 

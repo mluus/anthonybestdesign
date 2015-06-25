@@ -1,0 +1,1170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SharePrints Gallery\n"
+"POT-Creation-Date: 2014-07-22 10:33-0600\n"
+"PO-Revision-Date: 2014-07-22 10:33-0600\n"
+"Last-Translator: JR <jr@freakplugins.com>\n"
+"Language-Team: Freak Plugins <info@freakplugins.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-shareprints-admin.php:204
+#: ../public/class-shareprints.php:405
+msgid "Add Images"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:205
+#: ../public/class-shareprints.php:395 ../public/class-shareprints.php:433
+msgid "Edit Image"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:206
+msgid "Update Image"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:207
+msgid "uploaded to this post"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:209
+msgid "No images selected"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:210
+msgid "1 image selected"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:211
+#, php-format
+msgid "%d images selected"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:213
+msgid "Expand Details"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:214
+msgid "Collapse Details"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:220 ../admin/includes/mce_modal.php:61
+#: ../public/class-shareprints.php:206 ../public/class-shareprints.php:207
+#: ../public/class-shareprints.php:323
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:221 ../admin/includes/mce_modal.php:62
+#: ../public/class-shareprints.php:208
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:224
+msgid "Ajax Error"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:225
+msgid "Retry?"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:226
+msgid "Yes"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:227
+msgid "No"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:228
+msgid "Image needs your attention"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:229
+msgid "Images need your attention"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:230
+msgid "Processing Images"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:231
+msgid "Please wait for images to finish processing."
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:306
+#: ../admin/class-shareprints-admin.php:320
+#: ../admin/includes/settings_page.php:13
+msgid "SharePrints Settings"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:320
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:464
+#: ../admin/class-shareprints-admin.php:470
+msgid "Notice:"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:464
+msgid ""
+"There may be important updates available for SharePrints. Please enter your "
+"<a href=\"edit.php?"
+"post_type=shareprints&page=shareprints_settings&tab=license\">license key</"
+"a> and go to Dashboard > Updates to check for updates."
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:470
+msgid ""
+"There may be important updates available for SharePrints. Please verify that "
+"your <a href=\"edit.php?"
+"post_type=shareprints&page=shareprints_settings&tab=license\">license key</"
+"a> has been entered correctly."
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:539 ../admin/includes/mce_modal.php:22
+#: ../public/class-shareprints.php:299
+msgid "SharePrints"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:586
+#: ../public/class-shareprints.php:381 ../public/class-shareprints.php:419
+msgid "Title"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:588
+msgid "Enter title here"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:588
+msgid "Enter a title"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:639
+msgid " moved to trash."
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:747
+#: ../admin/class-shareprints-admin.php:796
+msgid "Security Error"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:790
+msgid "Error: Saved Setting Not Found"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:900
+msgid "Unsupported media type"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:907
+msgid "Image not found"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:916
+msgid "Unknown wordpress error"
+msgstr ""
+
+#: ../admin/class-shareprints-admin.php:929
+msgid "Network Error"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:31
+msgid "Gallery Select"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:32
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:33
+msgid "Lightbox Settings"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:34
+msgid "Save / Load"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:49 ../public/class-shareprints.php:210
+#: ../public/class-shareprints.php:314
+msgid "All Galleries"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:51
+msgid "No gallery selected"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:63
+msgid "Move to Trash"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:68
+msgid ""
+"Select the gallery you wish to insert. All published SharePrints galleries "
+"will appear in this list."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:79
+msgid "Gallery Type"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:89
+msgid "Set the display method for the gallery."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:95
+msgid "Gallery Position"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:98
+msgid "Left"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:99
+msgid "Center"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:100
+msgid "Right"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:104
+msgid ""
+"Set the position for the gallery. Left/Right allows the gallery to be placed "
+"alongside other content (such as text). Center horizontally centers the "
+"gallery."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:110
+msgid "Gallery Width (%)"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:125
+msgid "Set the width of the gallery. Width is relative to your theme's design."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:131
+msgid "Image Size"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:134
+msgid "S"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:135
+msgid "M"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:136
+msgid "L"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:137
+msgid "XL"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:141
+msgid ""
+"Set the display size for images in the gallery. Image sizes vary by Gallery "
+"Type."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:147
+msgid "Image Padding"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:150
+msgid "0"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:151
+msgid "1"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:152
+msgid "2"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:153
+msgid "3"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:154
+msgid "4"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:155
+msgid "5"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:156
+msgid "6"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:157
+msgid "7"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:158
+msgid "8"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:159
+msgid "9"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:160
+msgid "10"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:164
+msgid ""
+"Set the padding around images in the gallery. The numbers represent a scale "
+"of padding, not actual pixels."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:170
+msgid "Color Theme"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:173
+msgid "Dark"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:174
+msgid "Light"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:178
+msgid ""
+"Set the gallery color theme. Color Theme applies to various gallery elements "
+"including Slider arrows, Filmstrip background, etc."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:189
+msgid "Hover Effect"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:192
+msgid "None"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:193
+msgid "Color Effects"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:194
+msgid "Fadeout - Black"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:195
+msgid "Fadeout - White"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:196
+msgid "Color - Full to B&W"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:197
+msgid "Color - B&W to Full"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:198
+msgid "Color - Full to Half"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:199
+msgid "Color - Half to Full"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:200
+msgid "Sepia to Color"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:201
+msgid "Color to Sepia"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:202
+msgid "Invert Color"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:203
+msgid "Vintage Camera"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:204
+msgid "Overexpose"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:205
+msgid "Overexpose more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:206
+msgid "Blur"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:207
+msgid "Blur more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:209
+msgid "Motion Effects"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:210
+msgid "Pop out"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:211
+msgid "Pop out more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:212
+msgid "Tilt"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:213
+msgid "Tilt more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:214
+msgid "Shrink"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:215
+msgid "Shrink more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:216
+msgid "Zoom-in"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:217
+msgid "Zoom-in more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:218
+msgid "Zoom-out"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:219
+msgid "Zoom-out more"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:224
+msgid ""
+"Set the hover effect for gallery images that open the lightbox. This setting "
+"does not apply to images insde the lightbox. * Not supported in IE9/10; "
+"limited support in Firefox."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:230
+msgid "Lightbox Type"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:233
+#: ../public/views/gallery-types/slider.php:23
+msgid "Slider"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:234
+msgid "Fader"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:235 ../admin/includes/mce_modal.php:265
+#: ../admin/includes/mce_modal.php:279
+msgid "Disabled"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:239
+msgid ""
+"Set the display method for the lightbox or Disable it. Slider / Fader "
+"controls the transition effect between images in the lightbox."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:246
+msgid "Image Info"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:249
+msgid "Titles"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:250
+msgid "Captions"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:251
+msgid "Descriptions"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:255
+msgid "Set the image attributes to be shown in the info panel."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:261
+msgid "Image Comments"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:264 ../admin/includes/mce_modal.php:278
+msgid "Enabled"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:269
+msgid ""
+"Enable or Disable the comments panel. SharePrints inherits your WordPress "
+"discussion settings."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:275
+msgid "Social Sharing"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:283
+msgid ""
+"Enable or Disable the sharing panel. If enabled, visitors can share a link "
+"with their social media followers."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:294 ../admin/includes/mce_modal.php:300
+msgid "Save Settings"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:298
+msgid "Enter settings name here"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:298
+msgid "Enter settings name"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:305
+msgid ""
+"Give your settings a name and click Save. Overwrite existing saved settings "
+"by entering the same name."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:309 ../admin/includes/mce_modal.php:319
+msgid "Load Settings"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:311
+msgid "Saved settings successfully loaded."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:311
+msgid "No settings selected"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:320
+msgid "Delete Settings"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:324
+msgid ""
+"Saved settings allow you to quickly reuse your favorite SharePrints setup "
+"with any gallery. Settings you have saved appear in this list."
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:335 ../admin/includes/mce_modal.php:360
+#: ../public/includes/class-shareprints-lightbox.php:409
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:336
+msgid "Insert Gallery"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:337 ../admin/includes/mce_modal.php:362
+msgid "Update Gallery"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:351
+msgid "SharePrints - Add New Gallery"
+msgstr ""
+
+#: ../admin/includes/mce_modal.php:361
+msgid "Publish Gallery"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:18
+#: ../admin/includes/settings_page.php:33
+msgid "Welcome"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:19
+#: ../admin/includes/settings_page.php:40
+#: ../admin/includes/settings_page.php:63
+msgid "License"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:20
+#: ../admin/includes/settings_page.php:45
+msgid "How-Tos"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:22
+#: ../admin/includes/settings_page.php:281
+msgid "Support"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:23
+#: ../admin/includes/settings_page.php:299
+msgid "Feedback"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:39
+msgid "Thank you for choosing SharePrints by FreakPlugins!"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:40
+msgid "Activate your copy of SharePrints now to receive support and updates."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:40
+#: ../admin/includes/settings_page.php:45
+msgid "Go to the"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:40
+msgid ""
+"tab and enter the license key you received via email after you purchased the "
+"plugin."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:43
+msgid "Getting Started:"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:44
+msgid "Watch the video to learn how to create your first gallery!"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:45
+msgid "tab to see the complete video guide to using SharePrints."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:66
+msgid ""
+"Please enter the license key that was sent to you via email after your "
+"purchased SharePrints."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:68
+msgid "You can also find your license key by logging into your account at"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:68
+#: ../admin/includes/settings_page.php:287
+msgid "FreakPlugins.com."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:70
+msgid "Activating your license allows you to receive support and updates."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:73
+msgid "License Key"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:78
+msgid "Deactivate License"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:80
+msgid "Activate License"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:91
+msgid "Add-on License Keys"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:110
+msgid "SharePrints How-Tos"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:112
+msgid "A video guide to using SharePrints."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:119
+msgid "Creating Galleries"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:121
+msgid ""
+"SharePrints makes it easy to create galleries from anyplace on your "
+"WordPress site. This how-to video shows how you can create galleries "
+"directly from a page or post edit screen without having to refresh or open a "
+"new browser window."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:124
+msgid "Adding Galleries to Pages or Posts"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:126
+msgid ""
+"Say goodbye to shortcodes! SharePrints was designed to look and feel like a "
+"natural part of WordPress. This how-to video shows how to add galleries to a "
+"page or post, and how visual shortcodes make working with galleries in the "
+"WordPress editor simple."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:129
+msgid "Editing Galleries"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:131
+msgid ""
+"SharePrints is all about smart workflow. Making changes to a gallery can be "
+"done directly from the page or post it’s on! This how-to video shows how you "
+"can edit galleries from a page or post edit screen without having to refresh "
+"or open a new browser window."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:134
+msgid "Editing Gallery Images"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:136
+msgid ""
+"Do you want to add or edit an image’s title, caption, description or alt "
+"text? You could search through your entire media library until you find the "
+"image, but that’s a pain. This how-to video shows how you can edit gallery "
+"images directly from a page or post edit screen without having to refresh or "
+"open a new browser window."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:139
+msgid "Customizing Gallery Settings"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:141
+msgid ""
+"With powerful settings that are easy to understand, SharePrints makes it "
+"nearly impossible to produce bad results. This how-to video explains the "
+"various gallery settings you can use to customize the look and feel of your "
+"galleries."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:144
+msgid "Customizing Lightbox Settings"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:146
+msgid ""
+"The SharePrints lightbox is a powerful tool that allows your visitors to "
+"interact with your content in new and interesting ways. This how-to video "
+"explains the various lightbox settings you can use to customize the look and "
+"feel of the lightbox."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:149
+msgid "Saving and Loading Settings"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:151
+msgid ""
+"SharePrints utilizes smart workflows. A great example is the ability to save "
+"and load gallery and lightbox settings. Saved settings make it easy to "
+"achieve a consistent, custom appearance across multiple galleries. This how-"
+"to video shows how you can save, load, and update your favorite settings."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:173
+msgid "Table of contents"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:265
+msgid "Add-Ons"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:267
+msgid "Below are Add Ons for SharePrints created by Freak Plugins"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:285
+msgid "Do you need help with SharePrints? No problem."
+msgstr ""
+
+#: ../admin/includes/settings_page.php:287
+msgid ""
+"You can access our support forums and priority email support by logging in "
+"to your account at "
+msgstr ""
+
+#: ../admin/includes/settings_page.php:303
+msgid ""
+"Do you have feedback on SharePrints or an idea for a new feature or add on?"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:304
+msgid "Tweet us at "
+msgstr ""
+
+#: ../admin/includes/settings_page.php:304
+msgid "@FreakPlugins"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:304
+msgid " or visit "
+msgstr ""
+
+#: ../admin/includes/settings_page.php:304
+msgid "FreakPlugins.com"
+msgstr ""
+
+#: ../admin/includes/settings_page.php:304
+msgid " to share your thoughts!"
+msgstr ""
+
+#: ../public/class-shareprints.php:209
+msgid "New Gallery"
+msgstr ""
+
+#: ../public/class-shareprints.php:211
+msgid "View Gallery"
+msgstr ""
+
+#: ../public/class-shareprints.php:212
+msgid "Search Galleries"
+msgstr ""
+
+#: ../public/class-shareprints.php:213
+msgid "No Galleries found"
+msgstr ""
+
+#: ../public/class-shareprints.php:214
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: ../public/class-shareprints.php:256 ../public/class-shareprints.php:259
+msgid "Gallery updated."
+msgstr ""
+
+#: ../public/class-shareprints.php:257
+msgid "Gallery Custom field updated."
+msgstr ""
+
+#: ../public/class-shareprints.php:258
+msgid "Gallery Custom field deleted."
+msgstr ""
+
+#: ../public/class-shareprints.php:260
+#, php-format
+msgid "Post restored to revision from %s."
+msgstr ""
+
+#: ../public/class-shareprints.php:261
+msgid "Gallery Published."
+msgstr ""
+
+#: ../public/class-shareprints.php:262
+msgid "Gallery saved."
+msgstr ""
+
+#: ../public/class-shareprints.php:263
+msgid "Gallery submitted."
+msgstr ""
+
+#: ../public/class-shareprints.php:264
+#, php-format
+msgid "Gallery scheduled for: %1$s."
+msgstr ""
+
+#: ../public/class-shareprints.php:264
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../public/class-shareprints.php:265
+msgid "Gallery draft updated."
+msgstr ""
+
+#: ../public/class-shareprints.php:282 ../public/class-shareprints.php:359
+msgid "Gallery Images"
+msgstr ""
+
+#: ../public/class-shareprints.php:302
+msgid "Published"
+msgstr ""
+
+#: ../public/class-shareprints.php:303
+msgid "Draft"
+msgstr ""
+
+#: ../public/class-shareprints.php:304
+msgid "Trash"
+msgstr ""
+
+#: ../public/class-shareprints.php:363 ../public/class-shareprints.php:408
+msgid "View Small Grid"
+msgstr ""
+
+#: ../public/class-shareprints.php:363 ../public/class-shareprints.php:408
+msgid "Smaller"
+msgstr ""
+
+#: ../public/class-shareprints.php:364 ../public/class-shareprints.php:406
+msgid "View Grid"
+msgstr ""
+
+#: ../public/class-shareprints.php:364 ../public/class-shareprints.php:406
+msgid "Grid"
+msgstr ""
+
+#: ../public/class-shareprints.php:365 ../public/class-shareprints.php:407
+msgid "View List"
+msgstr ""
+
+#: ../public/class-shareprints.php:365 ../public/class-shareprints.php:407
+msgid "List"
+msgstr ""
+
+#: ../public/class-shareprints.php:381 ../public/class-shareprints.php:419
+msgid "View Title"
+msgstr ""
+
+#: ../public/class-shareprints.php:382 ../public/class-shareprints.php:420
+msgid "View Caption"
+msgstr ""
+
+#: ../public/class-shareprints.php:382 ../public/class-shareprints.php:420
+msgid "Caption"
+msgstr ""
+
+#: ../public/class-shareprints.php:383 ../public/class-shareprints.php:421
+msgid "View Description"
+msgstr ""
+
+#: ../public/class-shareprints.php:383 ../public/class-shareprints.php:421
+msgid "Description"
+msgstr ""
+
+#: ../public/class-shareprints.php:384 ../public/class-shareprints.php:422
+msgid "View Alternate Text"
+msgstr ""
+
+#: ../public/class-shareprints.php:384 ../public/class-shareprints.php:422
+msgid "Alternate Text"
+msgstr ""
+
+#: ../public/class-shareprints.php:394 ../public/class-shareprints.php:432
+msgid "Remove Image"
+msgstr ""
+
+#: ../public/class-shareprints.php:394 ../public/class-shareprints.php:432
+msgid "Remove"
+msgstr ""
+
+#: ../public/class-shareprints.php:395 ../public/class-shareprints.php:433
+msgid "Edit"
+msgstr ""
+
+#: ../public/class-shareprints.php:896
+msgid "Name is required"
+msgstr ""
+
+#: ../public/class-shareprints.php:897
+msgid "Email is required"
+msgstr ""
+
+#: ../public/class-shareprints.php:898
+msgid "Entered email is invalid"
+msgstr ""
+
+#: ../public/class-shareprints.php:899
+msgid "Entered website is invalid"
+msgstr ""
+
+#: ../public/class-shareprints.php:900
+msgid "Comment cannot be empty"
+msgstr ""
+
+#: ../public/class-shareprints.php:901
+msgid "Unknown Error. Please refresh the page."
+msgstr ""
+
+#: ../public/class-shareprints.php:902
+msgid "Image caption:"
+msgstr ""
+
+#: ../public/class-shareprints.php:1087
+msgid "Below added by Shareprints Gallery"
+msgstr ""
+
+#: ../public/class-shareprints.php:1089
+msgid "Above added by Shareprints Gallery"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:69
+msgid "Close"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:124
+msgid "Comments"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:125
+msgid "Loading..."
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:129
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:132
+msgid "Leave a comment"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:166
+#: ../public/includes/class-shareprints-lightbox.php:167
+#: ../public/includes/class-shareprints-lightbox.php:171
+msgid "Show Info"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:170
+msgid "Hide Info"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:182
+#: ../public/includes/class-shareprints-lightbox.php:183
+#: ../public/includes/class-shareprints-lightbox.php:188
+msgid "Show Comments"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:187
+msgid "Hide Comments"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:199
+#: ../public/includes/class-shareprints-lightbox.php:200
+#: ../public/includes/class-shareprints-lightbox.php:204
+msgid "Show Share Options"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:203
+msgid "Hide Share Options"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:211
+#: ../public/includes/class-shareprints-lightbox.php:212
+#: ../public/includes/class-shareprints-lightbox.php:216
+msgid "Show Thumbnails"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:215
+msgid "Hide Thumbnails"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:223
+#: ../public/includes/class-shareprints-lightbox.php:224
+msgid "Invert Colors"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:277
+#: ../public/includes/class-shareprints-lightbox.php:278
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:284
+#: ../public/includes/class-shareprints-lightbox.php:285
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:291
+#: ../public/includes/class-shareprints-lightbox.php:292
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:298
+#: ../public/includes/class-shareprints-lightbox.php:299
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:305
+#: ../public/includes/class-shareprints-lightbox.php:306
+msgid "Share on Google+"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:369
+#: ../public/includes/class-shareprints-lightbox.php:370
+msgid "Name"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:375
+#: ../public/includes/class-shareprints-lightbox.php:376
+msgid "Email"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:381
+#: ../public/includes/class-shareprints-lightbox.php:382
+msgid "Website"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:401
+#: ../public/includes/class-shareprints-lightbox.php:402
+msgid "Comment"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:408
+msgid "Post Comment"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:454
+msgid "No Comments"
+msgstr ""
+
+#: ../public/includes/class-shareprints-lightbox.php:522
+msgid "Your session has timed out. Please refresh the page."
+msgstr ""
+
+#: ../public/views/gallery-types/blog.php:23
+msgid "BlogStyle"
+msgstr ""
+
+#: ../public/views/gallery-types/blog.php:111
+#: ../public/views/gallery-types/common.php:48
+#: ../public/views/gallery-types/edge-thumb-slider.php:92
+#: ../public/views/gallery-types/filmstrip.php:133
+#: ../public/views/gallery-types/slidescroll.php:158
+#: ../public/views/gallery-types/thumb-slider.php:101
+msgid "Gallery Image"
+msgstr ""
+
+#: ../public/views/gallery-types/edge-slider.php:14
+msgid "Edge Slider"
+msgstr ""
+
+#: ../public/views/gallery-types/edge-thumb-slider.php:14
+msgid "Edge ThumbSlider"
+msgstr ""
+
+#: ../public/views/gallery-types/filmstrip.php:23
+msgid "Filmstrip"
+msgstr ""
+
+#: ../public/views/gallery-types/masonry.php:23
+msgid "Masonry"
+msgstr ""
+
+#: ../public/views/gallery-types/slidescroll.php:23
+msgid "SlideScroll"
+msgstr ""
+
+#: ../public/views/gallery-types/squares.php:23
+msgid "Squares"
+msgstr ""
+
+#: ../public/views/gallery-types/thumb-slider.php:23
+msgid "ThumbSlider"
+msgstr ""
